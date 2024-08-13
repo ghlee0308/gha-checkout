@@ -1,0 +1,7 @@
+name: Our Workflow
+on: push
+jobs:
+  checkout:
+    runs-on: unbuntu-latest
+    steps:
+      - run: ls -al
